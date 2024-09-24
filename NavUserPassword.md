@@ -9,7 +9,7 @@ New-NAVServerUser -ServerInstance <ServerInstanceName> -UserName <UserName> -Pas
 ```PowerShell
 New-NAVServerUserPermissionSet -PermissionSetId SUPER -ServerInstance <ServerInstanceName>-UserName <UserName>
 ```
-### 3. Set the NAVServerConfiguration `ClientServicesCredentialType` to `NavUserPassword`.
+### 3. Set the NAVServerConfiguration.
 ```PowerShell
 Set-NAVServerConfiguration -ServerInstance <ServerInstanceName>  -KeyName ClientServicesCredentialType -KeyValue NavUserPassword
 ```
