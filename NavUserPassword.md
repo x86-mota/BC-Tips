@@ -7,7 +7,7 @@ New-NAVServerUser -ServerInstance <ServerInstanceName> -UserName <UserName> -Pas
 
 ### 2. Set permissions.
 ```PowerShell
-New-NAVServerUserPermissionSet -PermissionSetId SUPER -ServerInstance <ServerInstanceName>-UserName <UserName>
+New-NAVServerUserPermissionSet -PermissionSetId SUPER -ServerInstance  -UserName <UserName>
 ```
 ### 3. Set the NAVServerConfiguration.
 ```PowerShell
